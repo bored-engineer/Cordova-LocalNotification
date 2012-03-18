@@ -2,6 +2,7 @@
 //  LocalNotification.h
 //
 //  Created by Luke Young (innoying) on 3/18/2012.
+// 	Inspiration from original plugin from Greg Allen
 //  Copyright 2012 innoying.com
 //  Released under MIT license
 //
