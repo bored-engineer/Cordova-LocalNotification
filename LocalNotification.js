@@ -22,7 +22,7 @@ LocalNotification.prototype.add = function(options) {
 			foreground:'app.running()'
     }    
     for (var key in defaultValues) {
-    	if (options[key] != "undefined"){
+    	if (options[key] != undefined){
         	options[key] = defaultValues[key];
         }
     }
