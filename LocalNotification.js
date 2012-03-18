@@ -18,8 +18,8 @@ LocalNotification.prototype.add = function(options) {
             badge: 0,
             id: 0,
 			sound:'',
-			background:'',
-			foreground:''
+			background:'app.background()',
+			foreground:'app.running()'
     }    
     for (var key in defaultValues) {
     	if (options[key] != "undefined"){
